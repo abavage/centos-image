@@ -32,6 +32,7 @@ objects:
       to:
         kind: ImageStreamTag
         name: centos-image:latest
+        namespace: openshift
     postCommit: {}
     resources: {}
     runPolicy: Serial
