@@ -13,6 +13,7 @@ objects:
     labels:
       app: centos-image
     name: centos-image
+    namespace: openshift    
   spec:
     lookupPolicy:
       local: false
@@ -32,7 +33,6 @@ objects:
       to:
         kind: ImageStreamTag
         name: centos-image:latest
-        namespace: openshift
     postCommit: {}
     resources: {}
     runPolicy: Serial
