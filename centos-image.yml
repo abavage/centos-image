@@ -13,7 +13,6 @@ objects:
     labels:
       app: centos-image
     name: centos-image
-    namespace: openshift    
   spec:
     lookupPolicy:
       local: false
